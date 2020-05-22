@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("/fonts/Montserrat-Regular")format("ttf"), url("/fonts/Montserrat-Bold")format("ttf"), url("/fonts/Montserrat-Medium.ttf")format("ttf"), url("/fonts/Montserrat-Light.ttf")format("ttf");
+}
+
+.main {
+    font: {
+        family: 'Montserrat', sans-serif;
+        style: normal;
+        weight: 400;
+        size: 20px;
+    }
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #1D3089;
+    .case-title {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 50px;
+        line-height: 52px;
+        align-items: center;
+        text-transform: uppercase;
+        color: #28A2D5;
+    }
+    @media (max-width: 860px) {
+        font-size: 16px;
+        line-height: 22px;
+        .case-title {
+            font-size: 30px;
+            line-height: 26px;
+        }
+    }
+}

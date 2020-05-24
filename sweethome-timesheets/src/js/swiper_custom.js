@@ -1,19 +1,23 @@
-// import './swiper';
-// const slider = document.querySelector('.swiper-container');
+import Swiper from 'swiper';
 
-// let mySwiper = new Swiper(slider, {
+const slider = document.querySelector('.swiper-container');
 
-//     slidesPerView: 3,
-//     spaceBetween: 20,
-//     loop: true,
-//     breakpoints: {
-//         768: {
-//             slidesPerView: 3,
-//             spaceBetween: 15,
-//         },
-//         650: {
-//             slidesPerView: 3,
-//             spaceBetween: 10,
-//         }
-//     }
-// });
+let mySwiper = new Swiper(slider, {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    loop: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+            spaceBetween: -30,
+        },
+        650: {
+            slidesPerView: 3,
+            spaceBetween: -70,
+        },
+        488: {
+            slidesPerView: 3,
+            spaceBetween: -50,
+        }
+    }
+})

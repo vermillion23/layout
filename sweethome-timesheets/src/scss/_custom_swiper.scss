@@ -1,12 +1,23 @@
-@import "swiper";
+// @import "swiper";
 .swiper-block {
     display: none;
-    margin-top: 5%;
+    margin: 5% auto;
     @media (max-width: 768px) {
         display: block;
     }
 }
 
+.swiper-slide img {
+    max-height: 360px;
+    @media (min-width: 650px) {
+        max-height: 470px;
+    }
+}
+
+// .swiper-container {
+// width: 600px;
+// height: 450px;
+// }
 .challenges-swiper-custom {
     position: relative;
     overflow: hidden;
@@ -14,7 +25,7 @@
     &:before {
         content: '';
         position: absolute;
-        background: url('/images/swiper-background.svg') no-repeat 0 0;
+        // background: url('/images/swiper-background.svg') no-repeat 0 0;
         background-size: 150% 100%;
         top: -3%;
         left: -14%;

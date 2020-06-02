@@ -2,22 +2,25 @@ import Swiper from 'swiper';
 
 const slider = document.querySelector('.swiper-container');
 
+// console.log(slider);
+
 let mySwiper = new Swiper(slider, {
     slidesPerView: 3,
-    spaceBetween: 0,
+    slidesOffsetBefore: -75,
+    spaceBetween: 168,
     loop: true,
     breakpoints: {
-        768: {
-            slidesPerView: 3,
-            spaceBetween: -30,
+        700: {
+            slidesOffsetBefore: 0,
+            spaceBetween: 0,
         },
         650: {
-            slidesPerView: 3,
-            spaceBetween: -70,
+            slidesOffsetBefore: -20,
+            spaceBetween: 30,
         },
-        488: {
-            slidesPerView: 3,
-            spaceBetween: -50,
+        525: {
+            slidesOffsetBefore: -30,
+            spaceBetween: 150,
         }
     }
-})
+});

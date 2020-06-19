@@ -1,0 +1,34 @@
+{
+    "name": "sweet_home_timesheets",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "3.5.3",
+        "html-webpack-plugin": "4.3.0",
+        "mini-css-extract-plugin": "0.9.0",
+        "node-sass": "4.14.1",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "8.0.2",
+        "style-loader": "1.2.1",
+        "webpack": "4.43.0",
+        "webpack-cli": "3.3.11"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.4.2",
+        "autoprefixer": "^9.8.0",
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1",
+        "postcss-cli": "^7.1.1",
+        "reset-css": "5.0.1",
+        "swiper": "5.3.8"
+    }
+}

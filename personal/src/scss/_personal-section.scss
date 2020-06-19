@@ -1,0 +1,74 @@
+.personal-section {
+    position: relative;
+    z-index: 1;
+    // overflow: hidden;
+    @media (min-width: 767px) {
+        display: flex;
+    }
+}
+
+.personal-section__content {
+    flex: 0 0 50%;
+}
+
+.personal-section__container {
+    max-width: 1350px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.personal-section__body {
+    // width: 65%;
+    padding: 50px 0px 50px 0px;
+    @media (min-width: 767px) {
+        padding: 50px 20px 50px 0px;
+        width: 68%;
+    }
+}
+
+.personal-section__big-text {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #F3EBEB;
+}
+
+.personal-section__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.personal-section__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.personal-section__image {
+    @media (min-width: 767px) {
+        position: relative;
+        flex: 43% 0 0;
+        padding: 0 0 28% 0;
+        transform: translate(0%, 0px);
+        -webkit-transform: translate(0%, 0px);
+        -moz-transform: translate(0%, 0px);
+        -ms-transform: translate(0%, 0px);
+        -o-transform: translate(0%, 0px);
+    }
+}
+
+.personal-section__image img {
+    max-width: 100%;
+    @media (min-width: 767px) {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+}

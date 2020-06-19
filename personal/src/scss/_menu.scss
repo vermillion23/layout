@@ -1,0 +1,29 @@
+.nav-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #EBEBEB;
+    &:hover {
+        // width: 127px;
+        // height: 24px;
+        background-color: #29A748;
+        color: #FFFFFF;
+    }
+}
+
+.menu-desktop-nav {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .menu-mobile-nav {
+        display: none;
+    }
+    .menu-desktop-nav {
+        display: block;
+    }
+}

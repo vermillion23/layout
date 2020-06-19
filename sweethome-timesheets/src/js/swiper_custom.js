@@ -9,6 +9,7 @@ let mySwiper = new Swiper(slider, {
     slidesOffsetBefore: -75,
     spaceBetween: 168,
     loop: true,
+    // updateOnWindowResize: true,
     breakpoints: {
         700: {
             slidesOffsetBefore: 0,
